@@ -1,0 +1,52 @@
+.container {
+    margin: 0 auto;
+    padding-top: 200px;
+  }
+  
+  .header {
+    margin-bottom: 18px;
+    font-size: 20px;
+  }
+  
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .createButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .createButton {
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f0f2f5;
+    color: #ec6724;
+    border: 3px solid #ec6724;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pageButton {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
